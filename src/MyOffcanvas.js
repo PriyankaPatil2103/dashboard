@@ -47,6 +47,9 @@ function MyOffcanvas() {
                     <Nav.Link onClick={handleClose}>
                         <Link to="/Customerlist">Customerlist</Link>
                     </Nav.Link>
+                    <Nav.Link onClick={handleClose}>
+                        <Link to="/Orderdetails">Order Details</Link>
+                    </Nav.Link>
                 </Nav>
                 
             </Offcanvas.Body>

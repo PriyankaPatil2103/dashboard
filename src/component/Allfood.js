@@ -35,10 +35,10 @@ function Allfood() {
             return (
               <Col sm={12} md={6} lg={3}>
                 <Card>
-                  <Card.Img src={`http://localhost:5000${food.FoodImg}`} />
+                  <Card.Img className="crd-image" src={`http://localhost:5000${food.FoodImg}`} />
                   <Card.Title>{food.FoodName}</Card.Title>
                   <Card.Text>{food.FoodCategory}</Card.Text>
-                  <Card.Text>{food.FoodPrize}</Card.Text>
+                  <Card.Text>{food.FoodPrice}</Card.Text>
                 </Card>
               </Col>
             );

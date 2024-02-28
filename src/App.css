@@ -7,3 +7,7 @@ body{
 .MyOffcanvas{
   background-color: #EEF4D4 !important;
 }
+.crd-image {
+  width: 100%;
+  height: 200px;
+}

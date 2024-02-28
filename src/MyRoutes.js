@@ -6,6 +6,7 @@ import Addfood from './component/Addfood'
 import Allfood from './component/Allfood'
 import Orders from './component/Orders'
 import Customerlist from './component/Customerlist'
+import Orderdetails from './component/Orderdetails'
 
 
 function MyRoutes() {
@@ -19,6 +20,7 @@ function MyRoutes() {
                 <Route path='/Allfood' element={<Allfood/>}></Route>
                 <Route path='/Orders' element={<Orders/>}></Route>
                 <Route path='/Customerlist' element={<Customerlist/>}></Route>
+                <Route path='/Orderdetails/:OrderId' element={<Orderdetails/>}></Route>
             </Routes>
         </Router>
     </div>
